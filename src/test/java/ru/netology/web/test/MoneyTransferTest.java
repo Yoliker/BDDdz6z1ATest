@@ -51,7 +51,7 @@ class MoneyTransferTest {
 
     }
 
-    /*    @Test
+        @Test
     void shouldGetErrorMessageIfAmountMoreBalance() {
 
         var amount = generateInvalidAmount(secondCardBalance);
@@ -64,6 +64,6 @@ class MoneyTransferTest {
         assertAll(() -> assertEquals(firstCardBalance, actualBalanceFirstCard),
                 () -> assertEquals(secondCardBalance, actualBalanceSecondCard));
 
-    }  */
+    }
 
 }
